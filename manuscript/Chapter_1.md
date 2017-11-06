@@ -1,23 +1,37 @@
-<style>
-  .Jesse {
-    width: 9%;
-    float: left;
-    padding-right: 10px;
-  }
-  .jordan {
-    width: 7%;
-    float: left;
-    padding-right: 10px;
-  }
-</style>
+<html>
+<head>
 
-<div class="Jesse">
-![](/../desktop/download.png)
-</div>
+</head>
 
-<div class="Jordan">
-![](/../desktop/jordan.png)
-</div>
+<body>
+  <style>
+    .jesse {
+      width: 10%;
+      float: left;
+      padding-right: 10px;
+    }
+    .jordan {
+      width: 10%;
+      float: left;
+      padding-right: 10px;
+    }
+  </style>
+
+  <div class="jesse">
+  Jesse
+  ![](images/download.png)
+  </div>
+
+  <div class="jordan">
+  Jordan
+  ![](images/jordan.png)
+  </div>
+<hr>
+  class jordan
+    jordan = ![](images/jordan.png)
+  end
+
+</body>
 
 # Styling with SCSS
 
