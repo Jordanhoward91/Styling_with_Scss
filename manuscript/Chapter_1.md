@@ -6,7 +6,7 @@
 
 Welcome to the first lesson in this getting DRY with SCSS course. In this guide what we're going to discuss are the who, what, when, where, why and how and of what SCSS is. By getting some background and learning about who created the framework, that gives us a little bit of insight on the problem that they were trying to solve, if they were successful in doing it and also if that's going to help you as you try to integrate and learn that system.
 
-{width=8%,float=left}
+{width: 8, float: left}
 ![](jordan.png)
 
 ####Who
