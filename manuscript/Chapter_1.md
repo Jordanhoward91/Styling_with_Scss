@@ -6,9 +6,6 @@
 
 Welcome to the first lesson in this getting DRY with SCSS course. In this guide what we're going to discuss are the who, what, when, where, why and how and of what SCSS is. By getting some background and learning about who created the framework, that gives us a little bit of insight on the problem that they were trying to solve, if they were successful in doing it and also if that's going to help you as you try to integrate and learn that system.
 
-{width: 8, float: left}
-![](jordan.png)
-
 ####Who
 
 SCSS was created by Hampton Catlin. Hampton is somewhat of a celebrity in the Rails community because he has created some incredibly popular libraries. Things that you may have already been using and didn't even realize it. In addition to SCSS he also created the Hammell templating library and Mobile Wikipedia.
