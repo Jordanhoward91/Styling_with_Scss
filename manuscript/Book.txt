@@ -1,2 +1,4 @@
 Chapter_1.md
 Chapter_2.md
+Chapter_3.md
+Chapter_4.md
