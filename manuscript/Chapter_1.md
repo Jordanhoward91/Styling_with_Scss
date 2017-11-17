@@ -54,7 +54,7 @@ That's essentially what SCSS does every time we use it, regardless of how comple
 
 So right here we have a Code Pen. We are going to be using Code Pen throughout this entire course.
 
-![](https://s3-us-west-2.amazonaws.com/bottegarails/SCSS/Screen+Shot+2017-10-06+at+2.44.06+PM.png)
+![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/Javascript+images/codepen.png)
 
  On the left we have HTML, and on the right is the SCSS file. If I just put this into a normal CSS file, the browser would not interpret it and it wouldn't give us the desired functionality.
 
