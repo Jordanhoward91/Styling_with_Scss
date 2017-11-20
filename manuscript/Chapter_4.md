@@ -1,6 +1,6 @@
 #Chapter 4 Advanced Scss
 
-###Scss Lists, @each Directive, and String InterpolationScss Lists, @each Directive, and String Interpolation
+##Scss Lists, @each Directive, and String InterpolationScss Lists, @each Directive, and String Interpolation
 
 This guide will help you demonstrate how to utilize lists, the Scss @each directive, and string interpolation in order to dynamically generate classes.
 
@@ -68,7 +68,7 @@ So this is something that's pretty cool this is a nother way. Remember that one 
 
 
 
-#### HTML Code
+###HTML Code
 
 ```html
 <div class="car-maserati"></div>
@@ -76,7 +76,7 @@ So this is something that's pretty cool this is a nother way. Remember that one 
 <div class="car-porsche"></div>
 ```
 
-#### Scss Code
+###Scss Code
 
 ```sass
 // List
@@ -96,14 +96,14 @@ $cars: 'maserati', 'tesla', 'porsche';
 }
 ```
 
-#### Image URLs
+###Image URLs
 
 - https://s3.amazonaws.com/bottega-devcamp/scss/cars/tesla.jpg
 - https://s3.amazonaws.com/bottega-devcamp/scss/cars/maserati.jpg
 - https://s3.amazonaws.com/bottega-devcamp/scss/cars/porsche.jpg
 
 
-###Real World Example of the Scss @import Directive
+##Real World Example of the Scss @import Directive
 
 This lesson walks through a real world production application and examines how the @import directive is used to organize a full project.
 
@@ -125,13 +125,13 @@ So Rails has its own compilation process but if you click on the application CSS
 
 
 
-#### Reference Project
+###Reference Project
 
 - [Source code](https://github.com/jordanhudgens/daily-smarty/blob/master/app/assets/stylesheets/application.scss)
 - [Application](http://www.dailysmarty.com/)
 
 
-###How to Use the @content Directive in Scss to Allow for Mixin Flexibility
+##How to Use the @content Directive in Scss to Allow for Mixin Flexibility
 
 This lesson examines the @content directive in Scss and specifically walks through how to refactor a mixin by yielding to a set of custom styles.
 
@@ -164,7 +164,7 @@ I personally love using arguments in mixins. It makes it very easy, it's very mu
 
 
 
-#### HTML Code
+###HTML Code
 
 ```html
 <div class="error">
@@ -176,7 +176,7 @@ I personally love using arguments in mixins. It makes it very easy, it's very mu
 </div>
 ```
 
-#### Starter Scss Code
+###Starter Scss Code
 
 ```sass
 @mixin notification($background-color, $color, $border) {
@@ -203,7 +203,7 @@ I personally love using arguments in mixins. It makes it very easy, it's very mu
 ```
 
 
-#### Refactored Scss Code with @content Directive
+###Refactored Scss Code with @content Directive
 
 ```sass
 @mixin notification {

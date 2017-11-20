@@ -1,6 +1,6 @@
 #Chapter 2 SCSS Basics
 
-###Introduction to Variables in Scss
+##Introduction to Variables in Scss
 
 This guide examines the syntax for declaring and calling variables in Scss files.
 
@@ -61,7 +61,7 @@ body {
 }
 ```
 
-###Using Default Variables in Scss
+##Using Default Variables in Scss
 
 We've walked through how to work with variables in Scss to make it possible to make a single change that populates a number of style definitions. To take this knowledge a step further, in this guide we'll examine how to set default variable values in Scss.
 
@@ -152,7 +152,7 @@ body {
 }
 ```
 
-###Guide to Variable Scope in Scss
+##Guide to Variable Scope in Scss
 
 Variable scoping in Scss is relatively intuitive if you're familiar with how variable scope works in general purpose programming languages.
 
@@ -162,7 +162,7 @@ Variable scope sets the access of variables by all of the components of a progra
 
 For an example, if you have a variable called $master-site-color, and you want to call that color from a different part of the stylesheet, such as a paragraph tag, variable scope is the programming mechanism that allows for that paragraph tag to have access to the $master-site-color variable.
 
-#### Basic Example of Variable Scope
+###Basic Example of Variable Scope
 
 In the example below you can see that I've set the $master-site-color variable at the top of the stylesheet. That is the master color and the rest of the stylesheet has access to it. However, given the cascading nature of CSS, each time we re-define the variable, the nested styles that call the variable will use the variable value that is the most closely targeted.
 
@@ -199,7 +199,7 @@ body {
 If you notice, the secondary-page-content class is the only page element that uses the variable value declared at the top of the stylesheet. This is because the other classes have more specific variable definitions.
 
 
-#### Example of Scss Variable Scope with Mixins
+### Example of Scss Variable Scope with Mixins
 
 Variable scope is the most critical when it comes to using Scss mixins. If you have a mixin that re-defines a variable, it will override any previous variable definitions, as shown in the example below:
 
@@ -238,7 +238,7 @@ body {
 }
 ```
 
-###Guide to Scss Nesting
+##Guide to Scss Nesting
 
 One of the most popular features of Scss is the ability to nest style definitions, and that's what we're going to walk through in this guide.
 
@@ -301,7 +301,7 @@ body {
 }
 ```
 
-###Scss Pseudo Selector Nesting
+##Scss Pseudo Selector Nesting
 
 This guide walks through how to work with nested pseudo selectors in Scss files, specifically examining how to customize a link's hover state.
 
@@ -331,7 +331,7 @@ If you hover over the link now, we can see that the changes have taken place.
 
 Now this is one that it may look kind of weird right now. One of the main reasons I wanted to put it in the course one is because it's important and helpful to use but also as you're going through other people's SCSS files if you come across something that looks like this that may look a little bit weird. If you've never seen it before so I'd definitely recommend trying this out on a few different projects that you're working on.
 
-#### HTML Code from Guide
+###HTML Code from Guide
 
 ```html
 <div class="container">
@@ -356,7 +356,7 @@ Now this is one that it may look kind of weird right now. One of the main reason
 ```
 
 
-#### Scss Code Example of Pseudo Selector Nesting
+###Scss Code Example of Pseudo Selector Nesting
 
 ```sass
 $off-white: #f6f6f6;
