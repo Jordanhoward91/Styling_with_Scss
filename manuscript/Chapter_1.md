@@ -1,29 +1,27 @@
-# Styling with SCSS
+#Chapter 1 Introduction to Scss
 
-##Chapter 1 Introduction to Scss
-
-####The Who, What, When, Where, Why, and How of SCSS
+##The Who, What, When, Where, Why, and How of SCSS
 
 Welcome to the first lesson in this getting DRY with SCSS course. In this guide what we're going to discuss are the who, what, when, where, why and how and of what SCSS is. By getting some background and learning about who created the framework, that gives us a little bit of insight on the problem that they were trying to solve, if they were successful in doing it and also if that's going to help you as you try to integrate and learn that system.
 
-####Who
+###Who
 
 SCSS was created by Hampton Catlin. Hampton is somewhat of a celebrity in the Rails community because he has created some incredibly popular libraries. Things that you may have already been using and didn't even realize it. In addition to SCSS he also created the Hammell templating library and Mobile Wikipedia.
 
 
-####What
+###What
 
 
 Moving on to the what. SCSS is short for Sassy Cascading Style Sheets and it was created over 10 years ago. It's gone through some incredible upgrades that have allowed us to use it in pretty powerful ways.
 
 
-####Where
+###Where
 
 
 And that leads directly into the where. Where can we use SCSS? That's something that's really neat about how it was built, even though early on it was something that was considered to be a Rails library. It now can be used in pretty much any kind of framework that you have. Whether it's a mobile framework to a javascript front end. It's not connected or locked into working with one type of stack or another. And in fact when we're going through this course we're going to use a completely separate system in order to build our stylesheets just so you can see that it's completely agnostic to whatever stack you happen to be working on.
 
 
-####Why
+###Why
 
 
 So far we've covered the who, the what and the where. And we're going to get to my favorite one which is the why. Why is it important and why is it helpful to learn about SCSS? That is something that I try to impress on any student when they're coming through the program and they want to get into more advanced topics when it's coming to front end design. SCSS allows us to be able to streamline our entire design implementation process. So if up to this point you've always written just in pure CSS that's perfectly fine. It is a great place to start but what SCSS allows you to do is to streamline that process. Everything that SCSS does revolves around being able to take out any kind of repetitive processes. So if you find yourself writing the same type of code snippets or even very similar types of CSS styles on a regular basis, SCSS allows you to stop all that repetition and start using shared code.
@@ -35,7 +33,7 @@ Throughout this course you're going to see how pretty much all of the tools that
 In addition to tools like mixins, SCSS also gives us the concept of variables. If you've ever had a situation where you had a CSS style sheet and you had some color definition in 20 spots and then decided you maybe wanted to change the color just a little bit. You would need to change that color in every single location that you called it. With SCSS you can define all of your styles, colors and sizes at the top and then reference those throughout the application. So when you want to make that change, you make it in one spot and it auto populates every place else. Like I said everything in SCSS revolves around being able to create shared code that is much more DRY and follows best practices.
 
 
-####How
+###How
 
 
 So how is all that possible? That leads directly to the last question we're going to answer in this guide, which is the how. What SCSS does is it allows you to write CSS type styles. It looks a lot like CSS with some nice layers on top. Technically SCSS is what's called a preprocessor. Which means that it's really just a type of scripting language that the browser can't interpret. As that preprocessor runs it takes all of the code that you wrote, all of those SCSS styles, and converts it directly into CSS. It takes all of the different efficiency's, the variables, the mixins and the functions, the conditionals and then it builds your own CSS files directly for you.
